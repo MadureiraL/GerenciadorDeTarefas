@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+    <title>To-Do List</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>📋 Gerenciador de Tarefas</h1>
+
+        <form id="task-form">
+            <input type="text" id="title" placeholder="Título" required />
+            <textarea id="description" placeholder="Descrição" required></textarea>
+            <button id="addTask" type="submit">Adicionar</button>
+        </form>
+
+        <h2>Tarefas</h2>
+        <ul id="task-list"></ul>
+    </div>
+</body>
+
+</html>
