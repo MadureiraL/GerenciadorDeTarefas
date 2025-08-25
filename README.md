@@ -33,4 +33,4 @@ Este projeto está sob a licença MIT.
 🙋‍♂️ Autor
 Desenvolvido por Levi Madureira
 📧 Email: abreumadureira@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/in/levi-de-abreu-madureira-846021224/
+🔗 LinkedIn: www.linkedin.com/in/levi-madureira
